@@ -278,7 +278,11 @@ button.facebook{
   border-radius: 8px;
 }
 .check input.ip{
-  width: 10%;
+  width: 10px;
+}
+.check label{
+  margin-top: 0;
+  font-size: 100%;
 }
 .check i{
   float: right;
@@ -552,9 +556,12 @@ audio::-webkit-media-controls-panel{
     margin-left: 2%;
   }
   .check input{
+    margin-top: 0.5%;
     float: left;
+    margin-left: 5%;
   }
   .check label{
+    margin-top: 0;
     float: left;
   }
   input.email{
@@ -676,4 +683,3 @@ input{
     margin: 0%;
   }
 }
-
