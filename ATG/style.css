@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     width: 100%;
+    height: 100%;
   }
   nav.Hobby{
     float: inline-start;
@@ -255,25 +256,25 @@ button.joinin{
 button.google{
   width: 100%;
   height: 9.21%;
-  margin: 2%;
+  margin-top: 2%;
   border-radius: 8px;
 }
 button.facebook{
   width: 100%;
   height: 9.21%;
-  margin: 2%;
+  margin-top: 2%;
   border-radius: 8px;
 }
 .con2 input{
   width: 100%;
   height: 9.21%;
-  margin: 2%;
+  margin-top: 2%;
   border-radius: 8px;
 }
 .check{
   width: 100%;
   height: 9.21%;
-  margin: 3%;
+  margin-top: 3%;
   border-radius: 8px;
 }
 .check input.ip{
@@ -285,7 +286,7 @@ button.facebook{
 button.continue{
   width: 100%;
   height: 9.21%;
-  margin: 2%;
+  margin-top: 2%;
   border-radius: 8px;
 }
 .page2{
@@ -547,11 +548,20 @@ audio::-webkit-media-controls-panel{
   .signjoin{
     margin: 0%;
   }
+  button{
+    margin-left: 2%;
+  }
   .check input{
     float: left;
   }
   .check label{
     float: left;
+  }
+  input.email{
+    margin-left: 2%;
+  }
+  input.password{
+    margin-left: 2%;
   }
 }
 button{
